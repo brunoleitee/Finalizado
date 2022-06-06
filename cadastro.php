@@ -83,7 +83,7 @@ session_start();
     <h1>CADASTRAR</h1>
       <div class="formcontainer">
         <div class="container">
-
+                                    
           <label for="nome"><strong>CEP</strong></label>
           <input class="s-input" type="text" value="<?php echo $_SESSION['cepend']; ?>" placeholder="Entre com o cep..." name="cep" id="cep" >
           <button type="submit" name="buscar" value="buscar" disabled="disabled" id="buscarCep">Buscar</button><br>
